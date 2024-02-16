@@ -79,16 +79,17 @@ body, html {
     background-color: #4cae4c;
   }
   
-  .footer {
-    text-align: center;
-    color: #000000;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-sizing: border-box;
-  }
+ .footer {
+  text-align: center;
+  color: #000000;
+  position: fixed; /* footerを画面下に固定する */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+}
   
   @media (max-width: 768px) {
     .container {
